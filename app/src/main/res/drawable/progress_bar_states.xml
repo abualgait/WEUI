@@ -1,0 +1,46 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape
+            android:innerRadiusRatio="3.5"
+            android:shape="ring"
+            android:thickness="20dp"
+            android:useLevel="false">
+            <gradient
+                android:centerColor="#e0e0e0"
+                android:endColor="#e0e0e0"
+                android:startColor="#e0e0e0" />
+
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:innerRadiusRatio="3.5"
+            android:shape="ring"
+            android:thickness="20dp"
+            android:useLevel="true">
+
+            <gradient
+                android:centerColor="@color/colorAccent"
+                android:endColor="@color/colorPrimaryDark"
+                android:startColor="@color/colorPrimary" />
+
+        </shape>
+
+
+    </item>
+
+</layer-list><!--
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="2.5"
+    android:shape="ring"
+    android:thickness="15dp"
+    android:useLevel="true">
+    <gradient
+        android:centerColor="#790c67"
+        android:endColor="#ca0da9"
+        android:startColor="#4e0c43" />
+    <corners android:topLeftRadius="20dp" />
+</shape>-->
